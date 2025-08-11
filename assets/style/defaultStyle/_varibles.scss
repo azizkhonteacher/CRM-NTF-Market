@@ -1,0 +1,17 @@
+$siteFont: "Poppins", sans-serif;
+
+//  COLOR'S
+
+:root {
+  --leftBg: #fff;
+  --bg: #f2f2f2;
+}
+.dark {
+  --leftBg: #1d1932;
+  --bg: #131129;
+}
+
+
+
+$leftBg: var(--leftBg);
+$bg: var(--bg);

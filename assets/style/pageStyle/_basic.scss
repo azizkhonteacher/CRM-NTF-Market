@@ -1,0 +1,59 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+.main-content {
+  flex: 1;
+  background: $bg;
+  height: 100vh;
+  // padding: 20px;
+  overflow-y: auto;
+  margin-left: 101px;
+}
+.sidebar {
+  height: 100vh;
+  background: $leftBg;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+}
+
+.logo {
+    @extend %fcc;
+  a {
+    width: 30px;
+    height: 30px;
+    @extend %fcc;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: $bg;
+}
+
