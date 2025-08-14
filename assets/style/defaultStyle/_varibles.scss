@@ -5,13 +5,16 @@ $siteFont: "Poppins", sans-serif;
 :root {
   --leftBg: #fff;
   --bg: #f2f2f2;
+  --bell: #333;
 }
 .dark {
   --leftBg: #1d1932;
   --bg: #131129;
+  --bell: #f2f2f2;
 }
 
 
 
 $leftBg: var(--leftBg);
 $bg: var(--bg);
+$bell: var(--bell)
